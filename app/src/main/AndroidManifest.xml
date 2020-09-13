@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.kytong.kyungsungtong">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="false"
+        android:icon="@drawable/img_mainui"
+        android:label="경성대정보통"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true">
+        <activity android:name="com.kytong.kyungsungtong.KsPage.SW.Etcpage"></activity>
+        <activity android:name="com.kytong.kyungsungtong.KsPage.SW.Winpage" />
+        <activity android:name="com.kytong.kyungsungtong.KsPage.SW.Mspage" />
+        <activity android:name="com.kytong.kyungsungtong.KsPage.SW.SWpage" />
+        <activity android:name="com.kytong.kyungsungtong.info.Source" />
+        <activity android:name="com.kytong.kyungsungtong.info.Team" />
+        <activity android:name="com.kytong.kyungsungtong.info.TeamLeader" />
+        <activity android:name="com.kytong.kyungsungtong.info.infomain" />
+        <activity android:name="com.kytong.kyungsungtong.KsPage.libraypage" />
+        <activity android:name="com.kytong.kyungsungtong.KsPage.nurimove" />
+        <activity android:name="com.kytong.kyungsungtong.foodmenu.hkfood3" />
+        <activity android:name="com.kytong.kyungsungtong.foodmenu.hkfood2" />
+        <activity android:name="com.kytong.kyungsungtong.foodmenu.hkfood" />
+        <activity android:name="com.kytong.kyungsungtong.foodmenu.food3" />
+        <activity android:name="com.kytong.kyungsungtong.foodmenu.food2" />
+        <activity android:name="com.kytong.kyungsungtong.foodmenu.foodmain" />
+        <activity android:name="com.kytong.kyungsungtong.timetablesub" />
+        <activity android:name="com.kytong.kyungsungtong.timetable" />
+        <activity android:name="com.kytong.kyungsungtong.bus.normalbuspage" />
+        <activity android:name="com.kytong.kyungsungtong.bus.busmain" />
+        <activity android:name="com.kytong.kyungsungtong.newsPage" />
+        <activity android:name="com.kytong.kyungsungtong.job.nara" />
+        <activity android:name="com.kytong.kyungsungtong.job.cleaneye" />
+        <activity android:name="com.kytong.kyungsungtong.job.job_alio" />
+        <activity android:name="com.kytong.kyungsungtong.job.jaso" />
+        <activity android:name="com.kytong.kyungsungtong.job.jobplanet" />
+        <activity android:name="com.kytong.kyungsungtong.foodmenu.food" />
+        <activity android:name="com.kytong.kyungsungtong.job.jobkr" />
+        <activity android:name="com.kytong.kyungsungtong.job.peoplein" />
+        <activity android:name="com.kytong.kyungsungtong.job.jobmain" />
+        <activity android:name="com.kytong.kyungsungtong.KsPage.Campusmap" />
+        <activity android:name="com.kytong.kyungsungtong.KsPage.notice" />
+        <activity android:name="com.kytong.kyungsungtong.KsPage.ReadingRoom" />
+        <activity android:name="com.kytong.kyungsungtong.KsPage.Schedule" />
+        <activity android:name="com.kytong.kyungsungtong.KsPage.portalPage" />
+        <activity android:name="com.kytong.kyungsungtong.KsPage.KySungPage" />
+        <activity android:name="com.kytong.kyungsungtong.bus.busPage" />
+        <activity android:name="com.kytong.kyungsungtong.ponNum.ponNummerPage" />
+        <activity android:name="com.kytong.kyungsungtong.KsPage.KysungHomePage" />
+        <activity android:name="com.kytong.kyungsungtong.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

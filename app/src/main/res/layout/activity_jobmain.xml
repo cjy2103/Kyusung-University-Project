@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".job.jobmain"
+    android:background="#e3f2fd"
+
+    >
+    <ImageView
+
+        android:layout_width="180dp"
+        android:layout_height="140dp"
+        android:background="@drawable/jop_1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.152" />
+
+    <Button
+        android:id="@+id/people_move"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:background="@drawable/img_saramin"
+        android:gravity="center"
+        android:minWidth="0dp"
+        android:minHeight="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.38" />
+
+    <TextView
+        android:id="@+id/peopleView"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:gravity="center"
+        android:text="사람인"
+        android:textSize="20dp"
+        android:fontFamily="@font/maplebold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/people_move" />
+
+    <Button
+        android:id="@+id/planet_move"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:background="@drawable/img_jobplanet"
+        android:gravity="center"
+        android:minWidth="0dp"
+        android:minHeight="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/people_move"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.38" />
+
+    <TextView
+        android:id="@+id/planetView"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:gravity="center"
+        android:text="잡플래닛"
+        android:textSize="20dp"
+        android:fontFamily="@font/maplebold"
+        app:layout_constraintEnd_toStartOf="@+id/peopleView"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/planet_move" />
+
+    <Button
+        android:id="@+id/alio_move"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:background="@drawable/img_jobalio"
+        android:gravity="center"
+        android:minWidth="0dp"
+        android:minHeight="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/people_move"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.38" />
+
+    <TextView
+        android:id="@+id/alioView"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:gravity="center"
+        android:text="잡알리오"
+        android:textSize="20dp"
+        android:fontFamily="@font/maplebold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/peopleView"
+        app:layout_constraintTop_toBottomOf="@+id/alio_move" />
+
+    <Button
+        android:id="@+id/nara_move"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:background="@drawable/img_nara"
+        android:gravity="center"
+        android:minWidth="0dp"
+        android:minHeight="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/peopleView"
+        app:layout_constraintVertical_bias="0.10" />
+
+    <TextView
+        android:id="@+id/naraView"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:gravity="center"
+        android:text="나라일터"
+        android:textSize="20dp"
+        android:fontFamily="@font/maplebold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/nara_move" />
+
+    <Button
+        android:id="@+id/jobkr_move"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:background="@drawable/img_jobkr"
+        android:gravity="center"
+        android:minWidth="0dp"
+        android:minHeight="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/nara_move"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/planetView"
+        app:layout_constraintVertical_bias="0.10" />
+
+
+    <TextView
+        android:id="@+id/jobkrView"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:fontFamily="@font/maplebold"
+        android:gravity="center"
+        android:text="잡코리아"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toStartOf="@+id/naraView"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/jobkr_move" />
+
+    <Button
+        android:id="@+id/jaso_move"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:background="@drawable/img_jaso"
+        android:gravity="center"
+        android:minWidth="0dp"
+        android:minHeight="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/nara_move"
+        app:layout_constraintTop_toBottomOf="@+id/alioView"
+        app:layout_constraintVertical_bias="0.10" />
+
+
+    <TextView
+        android:id="@+id/jasoView"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:gravity="center"
+        android:text="자소설닷컴"
+        android:textSize="20dp"
+        android:fontFamily="@font/maplebold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/naraView"
+        app:layout_constraintTop_toBottomOf="@+id/jaso_move" />
+
+    <Button
+        android:id="@+id/cleaneye_move"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:background="@drawable/img_cleaneye"
+        android:gravity="center"
+        android:minWidth="0dp"
+        android:minHeight="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.52"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/naraView"
+        app:layout_constraintVertical_bias="0.10" />
+
+    <TextView
+        android:id="@+id/cleaneyeView"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:gravity="center"
+        android:text="클린아이"
+        android:textSize="20dp"
+        android:fontFamily="@font/maplebold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cleaneye_move" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

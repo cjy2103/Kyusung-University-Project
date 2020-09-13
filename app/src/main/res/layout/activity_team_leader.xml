@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E6F1DA"
+    tools:context=".info.TeamLeader">
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="match_parent"
+        android:layout_height="41dp"
+        android:layout_marginTop="8dp"
+        android:fontFamily="@font/maplebold"
+        android:gravity="center"
+        android:text="소감"
+        android:textSize="24sp"
+        app:layout_constraintTop_toBottomOf="@+id/textView13"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="match_parent"
+        android:layout_height="92dp"
+        android:fontFamily="@font/maplelight"
+        android:text="이름: 최재영\n이메일:\ncjy210321@gmail.com\ncjy2103@naver.com"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView12" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="match_parent"
+        android:layout_height="41dp"
+        android:fontFamily="@font/maplebold"
+        android:gravity="center"
+        android:text="연락망"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView11" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="407dp"
+        android:layout_height="141dp"
+        android:fontFamily="@font/maplelight"
+        android:text="경성통 메인뷰 설계 및 디자인\n취업페이지 설계 및 기능구현\n경성페이지 설계 및 기능구현\n학식페이지 설계 및 기능구현\n버스시간표 설계 및 기능구현\n경성페이지 디자인\n"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView10" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="match_parent"
+        android:layout_height="41dp"
+        android:fontFamily="@font/maplebold"
+        android:gravity="center"
+        android:text="담당"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="match_parent"
+        android:layout_height="359dp"
+        android:fontFamily="@font/maplelight"
+        android:text="경성대를 4년 다니면서 학교 어플리케이션이 없어 많이 불편했던 경험이 있었기 때문에 이번 프로젝트로 이 어플리케이션을 만들기로 생각을 했습니다.\n
+개발 기간, 인력, 자본 모두 모자란 상태에서 진행하였고 저와 팀원 모두 안드로이드 앱개발이 처음이였기 때문에 실력이 많이 모자랐습니다. 하지만 정말 최선을 다해서 개발을 진행하였던것 같습니다\n
+첫 작품에 만족을 할수는 없겠지만 아무래도 3개월의 짧은 기간 때문에 좀더 시간이 있었으면 더 많은 기능을, 더 좋은 퀄리티를 제공할수 있었을텐데 하는 욕심이 자꾸 듭니다.\n 비록 저희는 여기서 이렇게 이번 프로젝트를 마무리 하지만
+경성대를 다니는 후배여러분들 께서 이 어플을 참고하시면서 더 나은 어플리케이션을 만들어서 서비스 해주셨으면 좋겠습니다."
+        android:textSize="16sp"
+        app:layout_constraintTop_toBottomOf="@+id/textView14"
+        tools:layout_editor_absoluteX="2dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>

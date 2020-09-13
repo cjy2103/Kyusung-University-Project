@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E6F1DA"
+    tools:context=".info.Team">
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="match_parent"
+        android:layout_height="41dp"
+        android:fontFamily="@font/maplebold"
+        android:gravity="center"
+        android:text="소감"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView13" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="match_parent"
+        android:layout_height="104dp"
+        android:fontFamily="@font/maplelight"
+        android:text="이름: 김지훈\n이메일:\nqqqkjh1@naver.com"
+        android:textSize="18sp"
+        app:layout_constraintTop_toBottomOf="@+id/textView12" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="match_parent"
+        android:layout_height="41dp"
+        android:fontFamily="@font/maplebold"
+        android:gravity="center"
+        android:text="연락망"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView11"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="match_parent"
+        android:layout_height="109dp"
+        android:fontFamily="@font/maplelight"
+        android:text="전화번호부 설계 및 기능 구현\n뉴스 페이지 설계 및 기능 구현\n시간표 페이지 설계 및 기능 구현\n취업 페이지 디자인\n"
+        android:textSize="18sp"
+        app:layout_constraintTop_toBottomOf="@+id/textView10" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="match_parent"
+        android:layout_height="41dp"
+        android:fontFamily="@font/maplebold"
+        android:gravity="center"
+        android:text="담당"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="match_parent"
+        android:layout_height="235dp"
+        android:fontFamily="@font/maplelight"
+        android:text="안드로이드 스튜디오는 직관적이고 라이브러리가 잘되있고 레이아웃을 코딩하면 즉시 반응해서 뷰를보여주니 비교적 개발하는데 편하고 재밌었습니다. 익숙한 자바기반에 구글에 많은 정보가 공유되어있어 도움이 많이되었습니다. 또한 웹과 차이점으로 디자인부분에서 시스템이 알아서 해주는게 많은게 제일좋았습니다~ "
+        android:textSize="16sp"
+        app:layout_constraintTop_toBottomOf="@+id/textView14" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

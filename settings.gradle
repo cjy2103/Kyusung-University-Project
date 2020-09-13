@@ -1,0 +1,2 @@
+rootProject.name='KyungsungTong'
+include ':app'

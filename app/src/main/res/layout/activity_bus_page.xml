@@ -1,0 +1,327 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".bus.busPage">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/back_blue"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TableLayout
+        android:id="@+id/tableLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="100dp"
+        android:background="@drawable/table_outside"
+        android:stretchColumns="*"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40sp"
+                android:layout_span="2"
+                android:background="@drawable/busmainimage"
+                android:fontFamily="@font/maplebold"
+                android:gravity="center"
+                android:text="오전"
+                android:textSize="22sp"
+
+                />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40sp"
+                android:layout_span="2"
+                android:background="@drawable/busmainimage1"
+                android:fontFamily="@font/maplebold"
+                android:gravity="center"
+                android:text="오후"
+                android:textSize="22sp" />
+
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="70sp"
+                android:background="@drawable/table_inside"
+                android:fontFamily="@font/maplebold"
+                android:gravity="center"
+                android:text="08:50"
+                android:textSize="22sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="70sp"
+                android:background="@drawable/table_inside"
+                android:fontFamily="@font/maplebold"
+                android:gravity="center"
+                android:text="11:00"
+                android:textSize="22sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="70sp"
+                android:background="@drawable/table_inside"
+                android:fontFamily="@font/maplebold"
+                android:gravity="center"
+                android:text="12:00"
+                android:textSize="22sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="70sp"
+                android:background="@drawable/table_inside"
+                android:fontFamily="@font/maplebold"
+                android:gravity="center"
+                android:text="15:00"
+                android:textSize="22sp" />
+
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="70sp"
+                android:background="@drawable/table_inside"
+                android:fontFamily="@font/maplebold"
+                android:gravity="center"
+                android:text="09:00"
+                android:textSize="22sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="70sp"
+                android:background="@drawable/table_inside"
+                android:fontFamily="@font/maplebold"
+                android:gravity="center"
+                android:text="11:30"
+                android:textSize="22sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="70sp"
+                android:background="@drawable/table_inside"
+                android:fontFamily="@font/maplebold"
+                android:gravity="center"
+                android:text="12:40"
+                android:textSize="22sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="70sp"
+                android:background="@drawable/table_inside"
+                android:fontFamily="@font/maplebold"
+                android:gravity="center"
+                android:text="15:30"
+                android:textSize="22sp" />
+
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="70sp"
+                android:background="@drawable/table_inside"
+                android:fontFamily="@font/maplebold"
+                android:gravity="center"
+                android:text="09:30"
+                android:textSize="22sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="70sp"
+                android:background="@drawable/table_inside"
+                android:fontFamily="@font/maplebold"
+                android:gravity="center"
+                android:text="11:50"
+                android:textSize="22sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="70sp"
+                android:background="@drawable/table_inside"
+                android:fontFamily="@font/maplebold"
+                android:gravity="center"
+                android:text="13:00"
+                android:textSize="22sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="70sp"
+                android:background="@drawable/table_inside"
+                android:fontFamily="@font/maplebold"
+                android:gravity="center"
+                android:text="16:00"
+                android:textSize="22sp" />
+
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="70sp"
+                android:background="@drawable/table_inside"
+                android:fontFamily="@font/maplebold"
+                android:gravity="center"
+                android:text="10:00"
+                android:textSize="22sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="70sp"
+                android:background="@drawable/table_inside"
+                android:fontFamily="@font/maplebold"
+                android:gravity="center"
+                android:text=""
+                android:textSize="22sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="70sp"
+                android:background="@drawable/table_inside"
+                android:fontFamily="@font/maplebold"
+                android:gravity="center"
+                android:text="13:30"
+                android:textSize="22sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="70sp"
+                android:background="@drawable/table_inside"
+                android:fontFamily="@font/maplebold"
+                android:gravity="center"
+                android:text="16:30"
+                android:textSize="22sp" />
+
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="70sp"
+                android:background="@drawable/table_inside"
+                android:fontFamily="@font/maplebold"
+                android:gravity="center"
+                android:text="10:30"
+                android:textSize="22sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="70sp"
+                android:background="@drawable/table_inside"
+                android:fontFamily="@font/maplebold"
+                android:gravity="center"
+                android:text=""
+                android:textSize="22sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="70sp"
+                android:background="@drawable/table_inside"
+                android:fontFamily="@font/maplebold"
+                android:gravity="center"
+                android:text="14:00"
+                android:textSize="22sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="70sp"
+                android:background="@drawable/table_inside"
+                android:fontFamily="@font/maplebold"
+                android:gravity="center"
+                android:text="17:00"
+                android:textSize="22sp" />
+
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="70sp"
+                android:background="@drawable/table_inside"
+                android:fontFamily="@font/maplebold"
+                android:gravity="center"
+                android:text=""
+                android:textSize="22sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="70sp"
+                android:background="@drawable/table_inside"
+                android:fontFamily="@font/maplebold"
+                android:gravity="center"
+                android:text=""
+                android:textSize="22sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="70sp"
+                android:background="@drawable/table_inside"
+                android:fontFamily="@font/maplebold"
+                android:gravity="center"
+                android:text="14:30"
+                android:textSize="22sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="70sp"
+                android:background="@drawable/table_inside"
+                android:fontFamily="@font/maplebold"
+                android:gravity="center"
+                android:text=""
+                android:textSize="22sp" />
+
+
+        </TableRow>
+
+
+
+    </TableLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
